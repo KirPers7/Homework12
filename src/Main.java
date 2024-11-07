@@ -11,13 +11,13 @@ public class Main {
         Book book3 = new Book("Основание", author4, 1951);
         Book book4 = new Book("Этот бессмертный", author1, 1965);
 
-        System.out.println("Интересная книга : \"" + book1.getBookName() + "\" " + book1.getBookAuthor().getAuthorName()
-                + " " + book1.getBookAuthor().getAuthorSurname() + " " + book1.getPublicationYear());
-        System.out.println("Интересная книга : \"" + book2.getBookName() + "\" " + book2.getBookAuthor().getAuthorName()
-                + " " + book2.getBookAuthor().getAuthorSurname() + " " + book2.getPublicationYear());
-        System.out.println("Интересная книга : \"" + book3.getBookName() + "\" " + book3.getBookAuthor().getAuthorName()
-                + " " + book3.getBookAuthor().getAuthorSurname() + " " + book3.getPublicationYear());
-        System.out.println("Интересная книга : \"" + book4.getBookName() + "\" " + book4.getBookAuthor().getAuthorName()
-                + " " + book4.getBookAuthor().getAuthorSurname() + " " + book4.getPublicationYear());
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(book3);
+        System.out.println(book4);
+
+        System.out.println(author2.equals(author3));
+
+        System.out.println(book1.equals(book4));
     }
 }
